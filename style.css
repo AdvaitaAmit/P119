@@ -1,0 +1,53 @@
+body{
+    background-color: #bed2fa;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #141a85 ;
+    background-color: rgb(190, 225, 255);
+}
+
+#your_sketch{
+    color: blue;
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    margin-top:150px;
+    box-shadow: 5px 5px 5px lightskyblue;
+    box-shadow: 1px 1px 38px darkcyan;
+    animation-name: color_change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes color_change {
+    from {box-shadow: 1px 1px 38px lightskyblue}
+    to {box-shadow: 1px 1px 38px darkcyan;}
+}
+
+p, span {
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+#score-span{
+    font-size:large;
+    margin-left:20px;
+}
+
+#timer-span{
+    font-size: large;
+    margin-right:20px;;
+    float:right;
+}
+
+#sketch-to-draw{
+    color: black;
+}
